@@ -1,0 +1,27 @@
+
+.buttons {
+    display: flex;
+    justify-content: space-around; /* Aligns items horizontally */
+    flex-wrap: wrap; /*Allows the items to wrap as needed*/
+    gap: 4px; /* Creates some space around items */
+  }
+  .cards{
+    padding-top: 2vh;
+  }
+  .cards h1{
+    text-align: center;
+  }
+  button {
+    background-color: #6d2582; /* Green background */
+    border: none; /* Removes border */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Removes underline */
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer; /* Cursor changes when you hover over the button */
+    border-radius: 4px; /* Rounded corners */
+  }
+  
