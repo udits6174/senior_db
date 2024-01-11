@@ -7,7 +7,8 @@ const TopicProblemsList = ({tag}) => {
 
   useEffect(() => {
     const fetchData = async (tag) => {
-      const response = await axios.get(`https://cors-anywhere.herokuapp.com/https://ask-senior-server.vercel.app/questions/${tag}`);
+      //https://cors-anywhere.herokuapp.com/
+      const response = await axios.get(`https://ask-senior-server.vercel.app/questions/${tag}`);
       setProblems(response.data);
     };
       fetchData(tag);
